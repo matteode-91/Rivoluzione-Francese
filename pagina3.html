@@ -19,13 +19,36 @@
       text-decoration: none;
     }
 
-<title>Home</title>
+li ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+
+      li:hover ul {
+      display: block;
+    }
+
+      li ul li a {
+      background-color: lightgray;
+      width: 150px;
+    }
+
 </style>
 </head>
 <body>
-<li><a href="index.html">Home</a></li>
-<center>
+  <ul>
+  <li>
+      <a href="#">Menu</a>
+  <ul>
+      <li><a href="index.html">Home principale</a></li>
+      <li><a href="pagina2.html">Precedente</a></li>
+      <li><a href="pagina4.html">Successiva</a></li>
+  </ul>
+  </li>
 
+<center>
 <h2>L’inizio della rivoluzione</h2>
   <ul>
     <strong>1789:</strong><i> Il re convoca gli Stati Generali per approvare nuove tasse.</i>

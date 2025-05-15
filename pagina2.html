@@ -19,11 +19,33 @@
       text-decoration: none;
     }
 
-<title>Home</title>
+li ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+
+      li:hover ul {
+      display: block;
+    }
+
+      li ul li a {
+      background-color: lightgray;
+      width: 150px;
+    }
+
 </style>
 </head>
 <body>
-<li><a href="index.html">Home</a></li>
+  <ul>
+  <li>
+      <a href="#">Menu</a>
+  <ul>
+      <li><a href="index.html">Home principale</a></li>
+      <li><a href="pagina3.html">Successiva</a></li>
+  </ul>
+  </li>
 
 <center>
 <h2>La Francia prima della rivoluzione</h2>
